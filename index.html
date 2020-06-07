@@ -8,9 +8,9 @@
 <body>
 	<div class="container">
   <header class="header">
-    <h1 id="title" class="text-center">This is a freeCodeCamp Survey Form</h1>
+    <h1 id="title" class="text-center">This is Spectrum Club Survey Form</h1>
     <p id="description" class="description text-center">
-      This form will help us to inprove the performance of our site
+      This form will help us to improve and to understand your need
     </p>
   </header>
   <form id="survey-form">
@@ -38,32 +38,33 @@
     </div>
     <div class="form-group">
       <label id="number-label" for="number"
-        >Age<span class="clue">(optional)</span></label
+        >Age<span class="clue">(Enter 1 for 1st year and so on..)</span></label
       >
       <input
         type="number"
-        name="age"
+        name="year"
         id="number"
         min="10"
         max="99"
         class="form-control"
-        placeholder="Age"
+        placeholder="1"
       />
     </div>
     <div class="form-group">
-      <p>Which option best describes your current role?</p>
+      <p>Select your department?</p>
       <select id="dropdown" name="role" class="form-control" required>
         <option disabled selected value>Select current role</option>
-        <option value="student">Student</option>
-        <option value="job">Full Time Job</option>
-        <option value="learner">Full Time Learner</option>
-        <option value="preferNo">Prefer not to say</option>
-        <option value="other">Other</option>
+        <option value="I and E">Instrumentation and Electronics</option>
+        <option value="EE">Electrical</option>
+        <option value="Mec">Mechanical</option>
+        <option value="Cs">Computer Science</option>
+        <option value="Txl">Textile</option>
+	<option value="Fsn">Fashion</option>
       </select>
     </div>
 
     <div class="form-group">
-      <p>Would you recommend freeCodeCamp to a friend?</p>
+      <p>Would you recommend Spectrum to a friend?</p>
       <label>
         <input
           name="user-recommend"
@@ -94,14 +95,14 @@
 
     <div class="form-group">
       <p>
-        What is your favorite feature of freeCodeCamp?
+        What would you recommed for the Club?
       </p>
       <select id="most-like" name="mostLike" class="form-control" required>
         <option disabled selected value>Select an option</option>
         <option value="challenges">Challenges</option>
         <option value="projects">Projects</option>
         <option value="community">Community</option>
-        <option value="openSource">Open Source</option>
+        <option value="openSource">Advertise</option>
       </select>
     </div>
 
@@ -146,10 +147,10 @@
       <label
         ><input
           name="prefer"
-          value="open-source-community"
+          value="Hardware"
           type="checkbox"
           class="input-checkbox"
-        />Open Source Community</label
+        />Hardware</label
       >
       <label
         ><input
@@ -170,26 +171,26 @@
       <label
         ><input
           name="prefer"
-          value="city-meetups"
+          value="meetups"
              type="checkbox"
           class="input-checkbox"
-        />City Meetups</label
+        />Meetups</label
       >
       <label
         ><input
           name="prefer"
-          value="wiki"
+          value="Exhibitions"
           type="checkbox"
           class="input-checkbox"
-        />Wiki</label
+        />Exhibitions</label
       >
       <label
         ><input
           name="prefer"
-          value="forum"
+          value="Cleaning"
           type="checkbox"
           class="input-checkbox"
-        />Forum</label
+        />Cleaning</label
       >
       <label
         ><input
