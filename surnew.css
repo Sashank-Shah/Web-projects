@@ -181,3 +181,10 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+#foot {
+  font-size: 10px;
+  background-color: red;
+}
+a {
+  color: yellow;
+}
